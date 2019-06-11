@@ -1,8 +1,9 @@
 body {
   margin: 0;
-  background-color: beige;
+  background-color: #fafafa;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
+  
 }
 
 h1 {
@@ -11,4 +12,22 @@ h1 {
 
 h2 {
   color: blue;
+}
+article {
+  margin: auto;
+}
+.post {
+  width: 70%;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+
+.title h1{
+  color: black;
+}
+
+.content {
+  text-align: left;
 }
