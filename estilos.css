@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background-color: beige;
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #fafafa;
+  font-family: sans-serif;
   text-align: center;
 }
 
@@ -11,4 +11,31 @@ h1 {
 
 h2 {
   color: blue;
+}
+article {
+  margin: auto;
+  box-shadow: 13px 14px 31px -5px rgba(0,0,0,0.27);
+}
+.post {
+  width: 70%;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.title {
+  background-color: rgb(100, 125, 238);
+}
+
+.title h1{
+  color: white;
+  margin: 0;
+  padding: 5px;
+  font-size: 2em;
+}
+
+.content {
+  text-align: left;
+  padding: 20px;
+  font-size: 1.2em;
 }
