@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: auto;
   background-color: #fafafa;
   font-family: sans-serif;
   text-align: center;
@@ -17,6 +17,7 @@ article {
   box-shadow: 13px 14px 31px -5px rgba(0,0,0,0.27);
 }
 .post {
+  margin-top: 1em;
   width: 70%;
   border-radius: 10px;
   background-color: white;
